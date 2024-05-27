@@ -1,6 +1,6 @@
 header {
     background-color: rgb(203, 243, 205);  /* Light gray background */
-    padding: 5px 0;
+    padding: 5px 0; 
   }
   
   .container { 
@@ -9,9 +9,9 @@ header {
     align-items: center;
     max-width: 1000px;
     margin: 0 auto;  /* Center the container horizontally */
-  
+   
   }
-  
+
   nav a:hover {
     background-color: #f0f8ff;  /* Light gray hover effect */
     border-radius: 8px;
@@ -21,7 +21,7 @@ header {
     /* Adjust image width and height as needed */
     width: 260px;
     height: 70px;
-    margin-left: -10.8rem;
+    margin-left: -8rem;
     
   }
   
@@ -59,6 +59,9 @@ header {
   
   .about-us-content {
     padding-left: 50px; /* Padding for content after scrolling */
+    img {
+      width: 38%;
+    }
   }
   
   footer {
@@ -117,8 +120,8 @@ header {
   .card {
     padding: 8px;
     margin-top: 20px;
-    margin-left: 50px;
-    width: 150px;
+    margin-left: 80px;
+    /* width: 100px; */
     height: 200px;
     h3 {
         padding-left: 10px;
@@ -135,7 +138,7 @@ header {
 
   .mission .row {
     display: flex; /* Set the row container to flexbox */
-    flex-wrap: nowrap; /* Prevent wrapping onto multiple lines */
+    flex-wrap: wrap; /* Prevent wrapping onto multiple lines */
   }
   
   .mission .card {

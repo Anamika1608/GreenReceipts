@@ -9,9 +9,13 @@ header {
     align-items: center;
     max-width: 1000px;
     margin: 0 auto;  /* Center the container horizontally */
-  
+    
   }
   
+nav {
+  margin-left: 80px;
+}
+
   nav a:hover {
     background-color: #f0f8ff;  /* Light gray hover effect */
     border-radius: 8px;
@@ -21,7 +25,7 @@ header {
     /* Adjust image width and height as needed */
     width: 260px;
     height: 70px;
-    margin-left: -19.8rem;
+    margin-left: -14.8rem;
     
   }
  
