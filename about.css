@@ -82,6 +82,9 @@ header {
         font-size: xx-large;
         
     }
+      img {
+          width : 45%;
+      }
   }
   #first {
     background-color: #f0f8ff;
