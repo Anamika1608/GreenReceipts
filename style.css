@@ -12,7 +12,7 @@ header {
   
   }
 
-  nav a{
+  nav ul li a{
       .active {
           padding-left : 200rem;
       }
