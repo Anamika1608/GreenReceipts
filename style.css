@@ -14,8 +14,7 @@ header {
 
   nav a{
       .active {
-          width:100%;
-          margin-left : 200rem;
+          padding-left : 200rem;
       }
   }
   
