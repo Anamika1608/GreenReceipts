@@ -1,0 +1,192 @@
+header {
+    background-color: rgb(203, 243, 205);  /* Light gray background */
+    padding: 5px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;  /* Center the container horizontally */
+  
+  }
+  
+  nav a:hover {
+    background-color: #f0f8ff;  /* Light gray hover effect */
+    border-radius: 8px;
+  }
+
+  .logo img {
+    /* Adjust image width and height as needed */
+    width: 260px;
+    height: 70px;
+    margin-left: -19.8rem;
+    
+  }
+ 
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    background-color: #f0f0f0;  /* Light gray background (optional) */
+  }
+  
+  .hero img {
+    width: 50%;
+    max-width: 500px;
+  }
+  
+  .text-content {
+    text-align: left;  /* Align text to the left */
+  }
+  
+  h1 {
+    font-size: 2.5rem;  /* Adjust font size as needed */
+    font-weight: bold;
+    margin-bottom: 1rem;  /* Add some space below the heading */
+  }
+  
+  p {
+    font-size: 1rem;  /* Adjust font size as needed */
+    color: #666;  /* Grayish text color */
+    margin-top: 0;  /* Remove default margin-top */
+  }
+  
+  .hero button {
+      background-color: #fce0cf;  /* Green color (adjust as needed) */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold; /* Add some weight to the text */
+      text-transform: uppercase; /* Convert text to uppercase */
+      transition: background-color 0.2s ease-in-out;  /* Add a smooth hover effect */
+    }
+    
+    .hero button:hover {
+      background-color: #f3d4bc;  /* Darker green on hover (adjust as needed) */
+    }
+    
+
+  .track {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+    padding: 10px;
+  }
+
+  .maintext {
+    padding-top: 0%;
+    font-size: 55px;
+  }
+ 
+  .benefits {
+    background-color: #f0f0f0; /* Light blue background */
+    padding: 30px; /* Add padding for content */
+ 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  .benefits h2 {
+    font-size: 2rem; /* Adjust font size as needed */
+     /* Add space below heading */
+    color: #3c6e8f; /* Blue heading color */
+    background-color: #fff; /* White background for the heading */
+    padding: 10px 20px; /* Add padding inside the heading */
+    border-radius: 20px; /* Create an oval shape for the heading */
+    display: inline-block; /* Allow for positioning next to content */
+     /* Adjust margin to align with section */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for heading */
+  }
+  .card {
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 150px;
+    p {
+      font-size: larger;
+     
+    }
+    background-color: #dde8f1;
+    font-weight: 500;
+  }
+  .social-proof {
+    background-color: #f5f5f5; /* Light gray background */
+    padding: 30px; /* Add padding for content */
+    margin: 20px auto; /* Center the section horizontally */
+    border-radius: 5px; /* Add a subtle border radius */
+    text-align: center; /* Center the content */
+  }
+  
+  .social-proof h3 {
+    font-size: 2rem; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add space below heading */
+    color: #333; /* Darker text color */
+  }
+  
+  .social-proof img {
+    width: 150px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px 10px 0; /* Add spacing between images */
+    border-radius: 5px; /* Add a subtle border radius to images */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for images */
+  }
+  
+  .social-proof blockquote {
+    font-style: italic; /* Italicize the quote text */
+    font-size: 16px; /* Adjust font size as needed */
+    margin-top: 30px; /* Add space above the quote */
+    padding: 15px 20px; /* Add padding for the quote content */
+    border-left: 5px solid #3c6e8f; /* Add a blue border to the left side of the quote */
+    background-color: #eee; /* Light background for the quote */
+    border-radius: 5px; /* Add a subtle border radius to the quote */
+  }
+
+  footer {
+    background-color: #f2f2f2; /* Light gray background */
+    padding: 15px 20px; /* Add padding for content */
+    text-align: center; /* Center the copyright text */
+    color: #333; /* Darker text color */
+  }
+  
+  footer p {
+    font-size: 14px; /* Adjust font size as needed */
+    margin: 0; /* Remove default margin */
+  }
+  /* Footer Styles */
+footer {
+  background-color: #f2f2f2; /* Light gray background */
+  padding: 20px; /* Add padding for content */
+  display: flex; /* Set footer to flexbox for layout */
+  justify-content: space-between; /* Align content horizontally */
+  align-items: center; /* Align content vertically */
+}
+
+.copyright {
+  color: #333; /* Darker text color */
+}
+
+.contact-us {
+  margin-top: 10px; /* Add space above the contact us section */
+  border-top: 1px solid #ddd; /* Add a thin border */
+  padding: 10px; /* Adjust padding for contact us content */
+  text-align: left; /* Align contact us content to the left */
+}
+
+.contact-us p {
+  margin-bottom: 5px; /* Add space below paragraph */
+}
+
+.contact-us a {
+  color: #333; /* Darker text color for links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.contact-us a:hover {
+  color: #007bff; /* Blue color for link hover */
+}
