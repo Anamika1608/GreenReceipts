@@ -7,7 +7,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1000px;
+    
     margin: 0 auto;  /* Center the container horizontally */
   
   }
@@ -21,7 +21,7 @@ header {
     /* Adjust image width and height as needed */
     width: 260px;
     height: 70px;
-    margin-left: -8.8rem;
+    margin-left: -6.8rem;
     
   }
   
