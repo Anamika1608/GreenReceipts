@@ -11,10 +11,6 @@ header {
     margin: 0 auto;  /* Center the container horizontally */
   
   }
-
-  nav ul .active {
-          padding-left : 45rem;
-  }
   
   nav a:hover {
     background-color: #f0f8ff;  /* Light gray hover effect */
