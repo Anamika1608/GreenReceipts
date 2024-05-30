@@ -12,10 +12,9 @@ header {
   
   }
 
-  nav ul {
-      .active {
+  nav ul .active {
           padding-left : 200rem;
-      }
+
   }
   
   nav a:hover {
