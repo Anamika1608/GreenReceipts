@@ -135,7 +135,7 @@ header {
 
   .mission .row {
     display: flex; /* Set the row container to flexbox */
-    flex-wrap: nowrap; /* Prevent wrapping onto multiple lines */
+    flex-wrap: wrap; /* Prevent wrapping onto multiple lines */
   }
   
   .mission .card {
