@@ -11,6 +11,12 @@ header {
     margin: 0 auto;  /* Center the container horizontally */
   
   }
+
+  nav a{
+      .active {
+          margin-left : 200px;
+      }
+  }
   
   nav a:hover {
     background-color: #f0f8ff;  /* Light gray hover effect */
